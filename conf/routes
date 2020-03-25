@@ -13,5 +13,14 @@ GET     /canteen-menu               controllers.CanteenMenuController.displayPag
 #ORDER SUMMARY
 GET     /order-summary              controllers.OrderSummaryController.displayPage
 
+#PAYMENT TYPE
+GET     /payment-type               controllers.PaymentTypeController.displayPage
+
+#PAYMENT DETAILS
+GET     /payment-details            controllers.PaymentDetailsController.displayPage
+
+#ORDER CONFIRMATION
+GET     /order-confirmation         controllers.OrderConfirmationController.displayPage
+
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
